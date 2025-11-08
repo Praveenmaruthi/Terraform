@@ -1,0 +1,3 @@
+Terraform Script to Provision AWS EC2 Instance with Security Group and User Data
+
+This project demonstrates the use of Terraform to automate the provisioning of AWS infrastructure. It creates a fully configured EC2 Ubuntu instance along with a custom security group that enables secure access over SSH, HTTP, and HTTPS. The setup uses Infrastructure as Code (IaC) principles to ensure consistency and repeatability in cloud deployments. Additionally, a user data script (script.sh) is integrated to automatically configure the instance during launch—such as installing required packages or deploying applications. This project highlights key DevOps automation practices, simplifying cloud resource management and deployment on AWS.
